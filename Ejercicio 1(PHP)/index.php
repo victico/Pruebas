@@ -63,6 +63,7 @@
                                             type="text" 
                                             autocomplete="off" 
                                             required 
+                                            pattern="^[0-9]*$"
                                             class="
                                                 block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 
                                                 placeholder:text-gray-400 
@@ -88,7 +89,7 @@
                         </div>
                     </div>
                     <div class="hidden md:block h-full md:w-1/2 justify-center px-5">
-                        <div class=" shadow-2xl rounded-xl">
+                        <div class=" shadow-2xl rounded-xl animate-little">
                             <img class="rounded-xl shadow-2xl " src="<?php echo $img['src']['large'] ?>" alt="">
                                     
                         </div>
